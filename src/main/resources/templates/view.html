@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<html lang="en" xmlns:th="http://www.thymeleaf.org/" xmlns="http://www.w3.org/1999/html">
 <head th:replace="fragments :: head"></head>
 
 <body class="container  body-content">
@@ -19,7 +19,6 @@
                 <a th:href="@{'/skills/view/' + ${skill.id}}" th:text="${skill.name}"></a>
             </li>
         </ul>
-    </p>
 </div>
 
 
